@@ -5,7 +5,7 @@ description = "Minigames for your brain."
 authors = ["tarvarrs <125196841+tarvarrs@users.noreply.github.com>"]
 readme = "README.md"
 packages = [
-    { include = "brain_games"},
+    { include = "brain_games" },
 ]
 classifiers = [
     "Topic :: Development Status :: 4 - Beta"
