@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from random import randint
 import brain_games.games.logics as logics
 
