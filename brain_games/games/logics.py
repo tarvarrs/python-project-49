@@ -1,7 +1,8 @@
 import prompt
 
+'''
 def start_game(name, correct_ans, res):
-    ans = prompt.string('Your answer: ')
+    ans = get_answer()
     if is_answer_correct(ans, correct_ans):
         res += 1
         if is_win(res):
@@ -10,18 +11,18 @@ def start_game(name, correct_ans, res):
     else:
         loose_message(ans, correct_ans)
         return True
+'''
 
 
 def greet_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     return name
 
 
 def get_answer():
-    ans = prompt.string('Answer: ')
+    ans = prompt.string('Your answer: ')
     return ans
 
 
@@ -37,5 +38,13 @@ def win_message(user_name):
     print(f'Congratulations, {user_name}!')
 
 
-def loose_message(user_answer, correct_answer):
-    print(f'\'{user_answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.')
+def make_decimal(a):
+    if a.isdecimal():
+        return int(a)
+    return a
+
+
+def loose_message(user_answer, correct_answer, name):
+    print(f'\'{user_answer}\' is wrong answer ;(. ',
+          f'Correct answer was \'{correct_answer}\'.')
+    print(f'Let\'s try again, {name}!')
