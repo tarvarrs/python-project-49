@@ -3,8 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/f0648ad8f636d07e5ca3/maintainability)](https://codeclimate.com/github/tarvarrs/python-project-49/maintainability)
 
-[![asciicast](https://asciinema.org/a/K4F6o6JneGdk8GjcCSYfidNe0.svg)](https://asciinema.org/a/K4F6o6JneGdk8GjcCSYfidNe0)
+Brain Games is a Python project with five amazing minigames for your brain.
 
-[![asciicast](https://asciinema.org/a/CaynLX2051jpbYQXePL0gWzH9.svg)](https://asciinema.org/a/CaynLX2051jpbYQXePL0gWzH9)
-
-[![asciicast](https://asciinema.org/a/x0hFw4pr4s4aLd92RwU7dxAd3.svg)](https://asciinema.org/a/x0hFw4pr4s4aLd92RwU7dxAd3)
+[![asciicast](https://asciinema.org/a/Hp8gDKAiB8vuuucpYMxD4CB6w.svg)](https://asciinema.org/a/Hp8gDKAiB8vuuucpYMxD4CB6w)
