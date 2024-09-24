@@ -5,7 +5,7 @@ import brain_games.games.logics as logics
 def start():
     name = logics.greet_user()
     res = 0
-    print('What number is missing in this progression?')
+    print('What number is missing in the progression?')
 
     while True:
         prog = generate_progression()
