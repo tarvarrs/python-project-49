@@ -5,12 +5,12 @@ import brain_games.games.logics as logics
 def start():
     name = logics.greet_user()
     res = 0
-    print('What number is missing in the progression?')
+    print('What number is missing in this progression?')
 
     while True:
         prog = generate_progression()
         correct_ans, question_progression = hide_element_in_progression(prog)
-        print(f'Question: {question_progression}')
+        print('Question: ', *question_progression)
         ans = int(logics.get_answer())
 
         if logics.is_answer_correct(ans, correct_ans):
