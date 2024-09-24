@@ -31,17 +31,12 @@ def is_answer_correct(user_answer, correct_answer):
 
 
 def is_win(correct_count):
-    return correct_count == 3
+    RES_TO_WIN = 3
+    return correct_count == RES_TO_WIN
 
 
 def win_message(user_name):
     print(f'Congratulations, {user_name}!')
-
-
-def make_decimal(a):
-    if a.isdecimal():
-        return int(a)
-    return a
 
 
 def loose_message(user_answer, correct_answer, name):
