@@ -10,7 +10,7 @@ def start():
     while True:
         prog = generate_progression()
         correct_ans, question_progression = hide_element_in_progression(prog)
-        print('Question: ', *question_progression)
+        print('Question:', *question_progression)
         ans = int(logics.get_answer())
 
         if logics.is_answer_correct(ans, correct_ans):
